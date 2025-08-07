@@ -35,7 +35,7 @@ This is a simple **PDF-based Question-Answering Chatbot** built using **LangChai
 ### 🔧 1. Install Dependencies
 
 ```python
-!pip install langchain-community langchain chromadb huggingface_hub google-generativeai pypdf PyMuPDF gradio
+pip install langchain chromadb gradio google-generativeai pdfplumber transformers langchain-google-genai langchain-community 
 import os
 os.environ["GOOGLE_API_KEY"] = "your_google_api_key"
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "your_huggingface_api_key"
